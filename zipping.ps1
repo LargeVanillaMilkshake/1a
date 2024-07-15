@@ -1,5 +1,5 @@
 $compress = @{
-  Path = "$ENV:TEMP\wstemp\"
+  Path = "$ENV:TEMP\wstemp"
   CompressionLevel = "Fastest"
   DestinationPath = "$ENV:TEMP\wstemp\info.zip"
 }
