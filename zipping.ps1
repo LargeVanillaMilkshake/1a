@@ -3,4 +3,4 @@ $compress = @{
   CompressionLevel = "Fastest"
   DestinationPath = "$ENV:TEMP\wstemp\wifipasses.zip"
 }
-Compress-Archive @compress
+Compress-Archive -Force @compress
